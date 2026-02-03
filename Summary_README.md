@@ -1,4 +1,4 @@
-**Human-Inspired AI for Zebrafish Phenotype & Behavior Analysis**
+# Human-Inspired AI for Zebrafish Phenotype & Behavior Analysis
 
 **Problem**
 
@@ -14,6 +14,7 @@ I developed an end-to-end AI system for:
 
 •	Behavioral time-series analysis under electromechanical stimuli
 
+
 **Data**
 
 •	10,000+ larval images and behavioral sequences
@@ -22,6 +23,7 @@ I developed an end-to-end AI system for:
 
 •	Multiple anatomical regions: whole larva, eye, head, yolk sac, pericardium, etc.
 
+
 **Models**
 
 •	Classification: RegNetY-16 (transfer learning)
@@ -29,6 +31,7 @@ I developed an end-to-end AI system for:
 •	Segmentation: DeepLabV3+ with RegNetY-16 encoder
 
 •	Behavior: Siamese LSTM (time-series similarity learning)
+
 
 **Results**
 
@@ -52,6 +55,7 @@ I developed an end-to-end AI system for:
 •	Provided interpretable, quantitative outputs trusted by domain experts
 
 •	Readily available phenotypic and behvaioral information on 400+ different mutants
+
 
 Implementation was accelerated using AI-assisted coding tools; all model design, experimentation, debugging, and validation were performed manually.
 
