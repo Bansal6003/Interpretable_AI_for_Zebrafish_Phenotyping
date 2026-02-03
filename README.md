@@ -1,4 +1,4 @@
-# Human-Inspired AI for Zebrafish Phenotype & Behavior Analysis
+# Interpretable AI for Zebrafish Phenotyping and Behavior Analysis
 
 **Problem**
 
@@ -59,9 +59,7 @@ I developed an end-to-end AI system for:
 
 Implementation was accelerated using AI-assisted coding tools; all model design, experimentation, debugging, and validation were performed manually.
 
-
-
-# Interpretable AI for Zebrafish Phenotyping  
+  
 
 This project presents deep learning–based automated phenotyping and morphometry for CRISPR-induced zebrafish mutants, developed as part of an NIH R24 resource grant at the University of Utah.
 
