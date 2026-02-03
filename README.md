@@ -13,4 +13,6 @@ Visual outputs are validated by domain experts and accelerate phenotyping compar
 - Segmentation IoU/Dice curves and masks
   
 - Unsupervised UMAP/t-SNE mutants clustering
+
+- MLflow-based tracking and metric logging
   
