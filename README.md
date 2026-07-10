@@ -17,9 +17,9 @@ I developed an end-to-end AI system for:
 
 **Data**
 
-•	10,000+ larval images and behavioral sequences
+•	100,000+ larval images and behavioral sequences
 
-•	~400 CRISPR mutant lines
+•	~400+ CRISPR mutant lines
 
 •	Multiple anatomical regions: whole larva, eye, head, yolk sac, pericardium, etc.
 
@@ -30,12 +30,14 @@ I developed an end-to-end AI system for:
 
 •	Segmentation: DeepLabV3+ with RegNetY-16 encoder
 
-•	Behavior: Siamese LSTM (time-series similarity learning)
+•	Behavior: LSTM and XGBoost
+
+• Single-cell RNA sequencing: Ridge Classifier for knock-out Prediction
 
 
 **Results**
 
-•	98.5% classification accuracy
+•	High classification accuracy
 
 •	High IoU and Dice scores across anatomical regions
 
@@ -63,7 +65,7 @@ Implementation was accelerated using AI-assisted coding tools; all model design,
 
 This project presents deep learning–based automated phenotyping and morphometry for CRISPR-induced zebrafish mutants, developed as part of an NIH R24 resource grant at the University of Utah.
 
-I trained RegNetY-16 classifiers (98.5% accuracy) and DeepLabV3+ segmentation models to extract body-part measurements from 10,000+ larval images across 400+ mutants. 
+I trained RegNetY-16 classifiers and DeepLabV3+ segmentation models to extract body-part measurements from 10,000+ larval images across 400+ mutants. 
 
 Visual outputs are validated by domain experts and accelerate phenotyping compared with manual workflows.
 
